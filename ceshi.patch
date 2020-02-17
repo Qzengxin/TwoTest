@@ -1,0 +1,322 @@
+Index: webd/webd.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- webd/webd.iml	(date 1581874093534)
++++ webd/webd.iml	(date 1581874093534)
+@@ -0,0 +1,23 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="FacetManager">
++    <facet type="web" name="Web">
++      <configuration>
++        <descriptors>
++          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/web/WEB-INF/web.xml" />
++        </descriptors>
++        <webroots>
++          <root url="file://$MODULE_DIR$/web" relative="/" />
++        </webroots>
++      </configuration>
++    </facet>
++  </component>
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/artifacts/webd_war_exploded.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/artifacts/webd_war_exploded.xml	(date 1581874093556)
++++ .idea/artifacts/webd_war_exploded.xml	(date 1581874093556)
+@@ -0,0 +1,13 @@
++<component name="ArtifactManager">
++  <artifact type="exploded-war" name="webd:war exploded">
++    <output-path>$PROJECT_DIR$/out/artifacts/webd_war_exploded</output-path>
++    <root id="root">
++      <element id="javaee-facet-resources" facet="webd/web/Web" />
++      <element id="directory" name="WEB-INF">
++        <element id="directory" name="classes">
++          <element id="module-output" name="webd" />
++        </element>
++      </element>
++    </root>
++  </artifact>
++</component>
+\ No newline at end of file
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/.gitignore	(date 1581950226214)
++++ .idea/.gitignore	(date 1581950226214)
+@@ -0,0 +1,2 @@
++# Default ignored files
++/workspace.xml
+\ No newline at end of file
+Index: webd/src/who.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- webd/src/who.java	(date 1581949369792)
++++ webd/src/who.java	(date 1581949369792)
+@@ -0,0 +1,6 @@
++/**
++ * @author Qinzengxin
++ * @create on 2020-02-17 下午 10:22
++ */
++public class who {
++}
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/vcs.xml	(date 1581950233978)
++++ .idea/vcs.xml	(date 1581950233978)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/encodings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/encodings.xml	(date 1581795313575)
++++ .idea/encodings.xml	(date 1581795313575)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
++    <file url="PROJECT" charset="UTF-8" />
++  </component>
++</project>
+\ No newline at end of file
+Index: TwoTest.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- TwoTest.iml	(date 1581788275698)
++++ TwoTest.iml	(date 1581788275698)
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: webs/web/index.jsp
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- webs/web/index.jsp	(date 1581873991387)
++++ webs/web/index.jsp	(date 1581873991387)
+@@ -0,0 +1,16 @@
++<%--
++  Created by IntelliJ IDEA.
++  User: Administrator
++  Date: 2020/2/17
++  Time: 上午 1:26
++  To change this template use File | Settings | File Templates.
++--%>
++<%@ page contentType="text/html;charset=UTF-8" language="java" %>
++<html>
++  <head>
++    <title>$Title$</title>
++  </head>
++  <body>
++  $END$
++  </body>
++</html>
+Index: webs/web/WEB-INF/web.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- webs/web/WEB-INF/web.xml	(date 1581873991398)
++++ webs/web/WEB-INF/web.xml	(date 1581873991398)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
++         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
++         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
++         version="4.0">
++</web-app>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/misc.xml	(date 1581788275728)
++++ .idea/misc.xml	(date 1581788275728)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
++    <output url="file://$PROJECT_DIR$/out" />
++  </component>
++</project>
+\ No newline at end of file
+Index: webs/webs.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- webs/webs.iml	(date 1581873999031)
++++ webs/webs.iml	(date 1581873999031)
+@@ -0,0 +1,23 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="FacetManager">
++    <facet type="web" name="Web">
++      <configuration>
++        <descriptors>
++          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/web/WEB-INF/web.xml" />
++        </descriptors>
++        <webroots>
++          <root url="file://$MODULE_DIR$/web" relative="/" />
++        </webroots>
++      </configuration>
++    </facet>
++  </component>
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/modules.xml	(date 1581874093570)
++++ .idea/modules.xml	(date 1581874093570)
+@@ -0,0 +1,10 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/TwoTest.iml" filepath="$PROJECT_DIR$/TwoTest.iml" />
++      <module fileurl="file://$PROJECT_DIR$/webd/webd.iml" filepath="$PROJECT_DIR$/webd/webd.iml" />
++      <module fileurl="file://$PROJECT_DIR$/webs/webs.iml" filepath="$PROJECT_DIR$/webs/webs.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/artifacts/webs_war_exploded.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/artifacts/webs_war_exploded.xml	(date 1581873999075)
++++ .idea/artifacts/webs_war_exploded.xml	(date 1581873999075)
+@@ -0,0 +1,13 @@
++<component name="ArtifactManager">
++  <artifact type="exploded-war" name="webs:war exploded">
++    <output-path>$PROJECT_DIR$/out/artifacts/webs_war_exploded</output-path>
++    <root id="root">
++      <element id="javaee-facet-resources" facet="webs/web/Web" />
++      <element id="directory" name="WEB-INF">
++        <element id="directory" name="classes">
++          <element id="module-output" name="webs" />
++        </element>
++      </element>
++    </root>
++  </artifact>
++</component>
+\ No newline at end of file
+Index: src/com/qin/HelloQin.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/com/qin/HelloQin.java	(date 1581877467124)
++++ src/com/qin/HelloQin.java	(date 1581877467124)
+@@ -0,0 +1,18 @@
++package com.qin;
++
++import java.util.ArrayList;
++
++public class HelloQin {
++
++    public static void main(String[] args){
++        System.out.println("Hello qin秦增鑫!!");
++
++        ArrayList list = new ArrayList();
++    }
++
++   /* public void qin(){
++
++        //这是注释
++
++    }*/
++}
+Index: webd/web/index.jsp
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- webd/web/index.jsp	(date 1581876968334)
++++ webd/web/index.jsp	(date 1581876968334)
+@@ -0,0 +1,17 @@
++<%--
++  Created by IntelliJ IDEA.
++  User: Administrator
++  Date: 2020/2/17
++  Time: 上午 1:28
++  To change this template use File | Settings | File Templates.
++--%>
++<%@ page contentType="text/html;charset=UTF-8" language="java" %>
++<html>
++  <head>
++    <title>小夏夏</title>
++  </head>
++  <body>
++  <h1 style="color:red"></h1>>
++  秦增鑫
++  </body>
++</html>
+Index: webd/web/WEB-INF/web.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- webd/web/WEB-INF/web.xml	(date 1581874084564)
++++ webd/web/WEB-INF/web.xml	(date 1581874084564)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
++         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
++         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
++         version="4.0">
++</web-app>
+\ No newline at end of file
